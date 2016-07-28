@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  list-style: 1.5;
+  margin: 30px;
+}
+
+#notification {
+  background-color: #EEE;
+  padding: 10px;
+  border: 1px solid #CCC;
+}
+
+.message {
+  /*#FFE is the same as #FFFFEE*/
+background-color: #FFE;
+padding: 10px;
+border: 2px solid #CCB;
+margin: 10px 0
+}
+
+.message:first-child {
+margin-top: 0px;
+}
+
+.error {
+background-color: #FEE;
+border-color: #C66
+}
+
+.success {
+  background-color: #cfd;
+  padding: 10px;
+  border: 2px solid #093;
+  margin: 10px 0
+}
