@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+    <body>
+      <h1>
+        Two-Column
+      </h1>
+
+    <!-- nav will be in my example of this weeks homework the top box. like a website with links in the nav bar -->
+      <nav>
+      </nav>
+
+      <div class="mainAside">
+    <!-- this would be the main part of the website, this is how i interpret this box in this homework -->
+    <main>
+    </main>
+
+<!-- this is the aside part of the website, the aside would be related to the main part, this is how i interpet this box here -->
+    <aside>
+    </aside>
+  </divmain>
+
+    <!-- this is the footer for content at the bottom of the page -->
+    <footer>
+    </footer>
+
+    </body>
+</html>

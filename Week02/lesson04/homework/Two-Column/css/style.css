@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 50px 45px 30px 45px;
+}
+
+nav {
+  border: solid black 1px;
+  height: 100px;
+  background-color: #CCC;
+}
+
+main {
+  border: solid black 1px;
+  height: 400px;
+  background-color: #CCC;
+}
+
+aside {
+  border: solid black 1px;
+  height: 400px;
+  background-color: #CCC;
+}
+
+footer {
+  border: solid black 1px;
+  height: 100px;
+  background-color: #CCC;
+}
+
+.mainAside {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 10px 0;
+}
