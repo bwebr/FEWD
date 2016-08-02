@@ -11,19 +11,19 @@ nav {
 }
 
 main {
+  display: inline-block;
   border: solid black 1px;
   height: 400px;
-  width: 70%;
+  width: 69%;
   background-color: #CCC;
-  display: inline-block;
 }
 
 aside {
+  display: inline-block;
   border: solid black 1px;
   height: 400px;
   width: 30%;
   background-color: #CCC;
-  display: inline-block;
 }
 
 footer {
