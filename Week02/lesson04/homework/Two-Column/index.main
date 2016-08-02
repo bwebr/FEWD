@@ -4,19 +4,23 @@
   <head>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
   </head>
+
     <body>
       <h1>
         Two-Column
       </h1>
+
       <nav>
       </nav>
-      <div class="mainAside">
-    <main>
-    </main>
-    <aside>
-    </aside>
-  </divmain>
-    <footer>
-    </footer>
+
+        <main>
+        </main>
+
+          <aside>
+          </aside>
+
+            <footer>
+            </footer>
+
     </body>
 </html>
