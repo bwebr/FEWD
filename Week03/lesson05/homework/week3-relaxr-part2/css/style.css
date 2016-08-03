@@ -51,20 +51,28 @@ body {
   margin: auto;
 }
 
-ul {
-  display:block;
-  width: 60px;
+.greyBackground {
+  background-color: #CCC;
+  width: 100%;
+}
+
+.leftPart {
+  display: inline-block;
+  height: 400px;
+  width: 69%;
 }
 
 
-header {
+aside {
+  display: inline-block;
+  height: 400px;
+  width: 20%;
+}
 
+h2 {
+  color: yellow;
 }
 
 footer {
-
+  background-color: black;
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
