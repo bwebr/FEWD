@@ -51,28 +51,100 @@ body {
   margin: auto;
 }
 
+header {
+  background-color: #0A3D70
+}
+
+nav {
+  font-style: Semibold;
+  font-size: 24px;
+}
+
+
+
+header h2 {
+  color: white;
+}
+
+header a {
+  color: yellow;
+  /*how to align the links to left?*/
+}
+
 .greyBackground {
-  background-color: #CCC;
-  width: 100%;
+  background-color: #f0efef;
+  /*the grey area doesn't have 100% width*/
+  background-size: : 100%;
+}
+
+h1 {
+  /*font style doesnt do anything*/
+  font-style: Semibold;
+  font-size: 40px;
+}
+
+section {
+  /*font style light doesnt do anything*/
+  font-style: light;
+  font-size: 24px;
 }
 
 .leftPart {
   display: inline-block;
   height: 400px;
-  width: 69%;
+  width: 700px;
 }
 
 
 aside {
   display: inline-block;
   height: 400px;
-  width: 20%;
+  width: 240px;
+}
+
+h3 {
+    /*font style extra bold doesnt do anything*/
+  font-style: extra bold;
+  font-size: 32px;
+}
+#categoriesList li {
+  /*font style light doesnt do anything*/
+  font-style: light;
+  font-size: 24px;
+}
+
+#textAboutRelaxr {
+  /*font style light doesnt do anything*/
+  font-style: light;
+  font-size: 24px;
+}
+
+#LearnMore {
+  font-size: 24px;
+}
+
+#ReadMore {
+  font-size: 24px;
+  text-align: right;
+}
+.yellowBackground {
+  background-color: yellow;
+}
+
+#SignUp {
+  font-size: 24px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
 }
 
 h2 {
   color: yellow;
+  font-size: 24px;
 }
 
 footer {
-  background-color: black;
+  background-color: #121212;
 }
