@@ -33,6 +33,8 @@ main {
   background-image: url("../images/coworking.jpg");
   background-repeat: no-repeat;
   height: 600px;
+  background-position: center;
+  background-size: cover;
 }
 
 aside {
@@ -40,7 +42,14 @@ aside {
   padding: 15px 8px 15px 8px;
   width: 150px;
   border: black solid 1px;
-  margin: 8px 8px 8px 0;
+  margin: 20px 20px 20px 0;
   background-color: #ffffff;
   opacity: 0.6;
+}
+
+section {
+  background-color: white;
+  margin: auto;
+  padding: 10px 5px;
+  height: auto;
 }
