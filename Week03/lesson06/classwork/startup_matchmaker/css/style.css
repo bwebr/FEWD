@@ -2,21 +2,45 @@ header {
   background-color: black;
   padding: 60px;
   margin: 0px;
-  border-bottom: 8px yellow solid;
+  border-bottom: 5px yellow solid;
 }
 
 nav {
   text-align: right;
-
 }
 
 .becausetwoBrains {
-  background-color: grey;
+  background-color: #C4C4C4;
   text-align: center;
   padding:25px 0 25px 0;
 }
 
-main {
-  background-image: url("images/coworking.jpg");
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
 
+main {
+  background-image: url("../images/coworking.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+aside {
+  float:right;;
+  padding: 15px 8px 15px 8px;
+  width: 150px;
+  border: black solid 1px;
+  margin: 8px 8px 8px 0;
+  background-color: #ffffff;
+  opacity: 0.6;
 }
