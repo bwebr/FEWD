@@ -5,9 +5,15 @@ header {
   border-bottom: 5px yellow solid;
 }
 
+h1 {
+  color: yellow;
+}
+
 nav {
   text-align: right;
 }
+
+
 
 .becausetwoBrains {
   background-color: #C4C4C4;
@@ -32,7 +38,7 @@ nav {
 main {
   background-image: url("../images/coworking.jpg");
   background-repeat: no-repeat;
-  height: 600px;
+  height: 750px;
   background-position: center;
   background-size: cover;
 }
@@ -59,4 +65,15 @@ footer {
   padding: 6px 6px 6px 20px;
   margin: 0px;
   color: white;
+}
+
+.box1, .box2, .box3 {
+  display: inline-block;
+  /*width needs to be changed*/
+  width: 20%;
+  margin: 5%;
+}
+
+.box1, .box2 {
+  border-right: 2px solid black;
 }
