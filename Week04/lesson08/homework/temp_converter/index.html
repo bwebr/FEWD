@@ -8,13 +8,17 @@
 
 <body>
   <h1>Temperature Converter</h1>
-  <div id="inputNumber">
-    <input type="number" name="someid" />
-  </div>
 
-  <button id="convert">Convert</button>
+<div id="celsiusFarenheit">
+  <input id="c" onkeyup="convert('C')"> degrees Celsius
 
-  <h2 id="result">0</h2>
+
+<input id="f" onkeyup="convert('F')"> degrees Fahrenheit
+  <br>
+</div>
+
+
+
 
   <script src="js/index.js"></script>
 </body>
