@@ -46,7 +46,7 @@ console.log(f + "°F");
    var f = document.querySelector("#f").value;
    var result, scale;
 
-   if (f === "") { /* if (c !== "") */
+   if (f === "") { if (c !== "")
      result = c * 9/5 + 32;
      scale = "F";
    } else {
