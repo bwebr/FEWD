@@ -1,0 +1,2 @@
+Use jQuery and Arrays to recreate the functionality. Remember to write your pseudo code before starting the task.
+just make it work - click next image shows next images.

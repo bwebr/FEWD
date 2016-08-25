@@ -1,13 +1,18 @@
 var total = 0;
 
+function currencyFormat (number) {
+  return "$" + number.toFixed(2)
+}
+
 function doSomething(e) {
   e.preventDefault();
+
   var entry = $("#newEntry").val();
   entry = parseFloat(entry);
-  $("#entries").append("<tr><td><td></td>td>" + entry.toFixed(2) + "</td>td></tr>");
+  $("#entries").append("<tr><td><td></td>td>$" + currencyFormat(entry) + "</td>td></tr>");
 
   total = total + entry;
-  $(".total").html(total.entry.toFixed(2));
+  $(".total").html(currencyFormat(total));
 
   $("#newEntry").val("");
 }
